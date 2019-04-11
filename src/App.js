@@ -2,8 +2,8 @@ import React, { Component, useState, useEffect } from 'react';
 import logo from './logo.svg';
 import babyShark from './baby-shark.jpg';
 import './App.css';
-// import HelloWorld from './components/HelloWorld';
-// import Clock from './components/Clock';
+import HelloWorld from './components/HelloWorld';
+import Clock from './components/Clock';
 
 const Counter = () => {
   const [count, setCount] = useState(0);
@@ -49,7 +49,8 @@ class App extends Component {
           >
             Shark video
           </a>
-          
+          <HelloWorld />
+          <Clock />
           <Counter />
         </header>
       </div>
